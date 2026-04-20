@@ -13,7 +13,7 @@ import { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import PaymentSuccess from './Pages/PaymentSuccess'
 import PaymentFailed from './Pages/PaymentFailed'
-export const serverurl = "https://ai-notes-serversite.onrender.com"
+export const serverurl = "https://ai-notes-s.onrender.com"
 
 function App(){
   const dispatch = useDispatch()
